@@ -1,4 +1,4 @@
-"""python
+
 """
 SmashBite Telegram Bot
 Telegram orqali SmashBite veb-saytini ochish uchun bot.
@@ -155,4 +155,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-"""
+
