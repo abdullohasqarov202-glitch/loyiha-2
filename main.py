@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 # --- Sozlamalar ---
 # BOT_TOKEN va WEBAPP_URL Railway'da muhit o'zgaruvchisi (Environment Variable)
 # sifatida beriladi. Lokal sinov uchun standart qiymatlar bilan almashtirishingiz mumkin.
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8390060267:AAFN43Ig2A5Gtiwi0nwRuhfCGuuTfgRWr1o")
-WEBAPP_URL = os.getenv("WEBAPP_URL", "https://sizning-saytingiz.up.railway.app")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+WEBAPP_URL = os.getenv("WEBAPP_URL", "https://loyiha-bir-production.up.railway.app")
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
